@@ -6,3 +6,5 @@ This alt:V Multiplayer resource is a rewrite and small enhancement of https://gi
 <h1>Install:</h1>
 
 Place "livecity-js" folder in alt:V resources folder and add "livecity-js" string to resources section of server.toml.
+
+For now work correctly on alt:V Server 16.1.2-rc.1 (rc)
