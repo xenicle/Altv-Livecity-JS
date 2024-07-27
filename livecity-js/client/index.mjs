@@ -9,11 +9,7 @@ alt.on('resourceStart', () => {
     
     alt.on('connectionComplete', () => {
         alt.loadDefaultIpls()
-    })
-    
-    alt.on('spawned', () => {
-        alt.emitServer(EventNames.LiveCity.s_playerSpawned)
-
+        
         alt.setInterval(() => {
             const wanderVehs = alt.Vehicle.all.filter((vehicle) => vehicle.valid &&
                 vehicle.scriptID !== 0 &&
@@ -126,6 +122,10 @@ alt.on('resourceStart', () => {
 
             alt.emitServer(EventNames.LiveCity.s_clientSendClockHours, native.getClockHours(), density)
         }, 1000)
+    })
+    
+    alt.on('spawned', () => {
+        alt.emitServer(EventNames.LiveCity.s_playerSpawned)
     })
     
     
