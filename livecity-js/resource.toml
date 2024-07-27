@@ -1,0 +1,4 @@
+client-files = [ 'client/*', 'shared/*' ]
+client-main = 'client/index.mjs'
+main = 'server/index.mjs'
+type = 'js'
