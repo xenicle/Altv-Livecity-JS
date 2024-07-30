@@ -7,9 +7,6 @@ This alt:V Multiplayer resource is a rewrite and small enhancement of https://gi
 
 Place "livecity-js" folder in alt:V resources folder and add "livecity-js" string to resources section of server.toml.
 
-Node JS packages needed : 
-- msgpack5
-- fs
-- xml-js
+Install dependencies `npm i xml-js msgpack5`
 
 For now work correctly on alt:V Server 16.1.2-rc.1 (rc)
