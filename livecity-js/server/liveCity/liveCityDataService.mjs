@@ -8,15 +8,15 @@ import { RandomProvider } from "../../shared/randomProvider.mjs"
 import { vector3Length, toRadians } from "../../shared/mathUtils.mjs"
 import { CellCoord, NavigationMeshProvider } from '../navigation/navigationMeshProvider.mjs'
 
-import StreetNodes from '../data/LiveCity/ExtendedNodes.json' assert { type: "json" }
-import PedComponentVariations from '../data/LiveCity/pedComponentVariations.json' assert { type: "json" }
-import vehicles from '../data/LiveCity/vehicles.json' assert { type: "json" }
-import ScenarioPoints from '../data/LiveCity/ScenarioPoints.json' assert { type: "json" }
-import AllowedScenarios from '../data/LiveCity/AllowedScenarios.json' assert { type: "json" }
-import PedModelGroup from '../data/LiveCity/PedModelGroup.json' assert { type: "json" }
-import CarModels from '../data/LiveCity/CarModels.json' assert { type: "json" }
-import ColorlessCars from '../data/LiveCity/ColorlessCars.json' assert { type: "json" }
-import CarColorsNum from '../data/LiveCity/CarColorsNum.json' assert { type: "json" }
+import StreetNodes from '../data/LiveCity/ExtendedNodes.json' with { type: "json" }
+import PedComponentVariations from '../data/LiveCity/pedComponentVariations.json' with { type: "json" }
+import vehicles from '../data/LiveCity/vehicles.json' with { type: "json" }
+import ScenarioPoints from '../data/LiveCity/ScenarioPoints.json' with { type: "json" }
+import AllowedScenarios from '../data/LiveCity/AllowedScenarios.json' with { type: "json" }
+import PedModelGroup from '../data/LiveCity/PedModelGroup.json' with { type: "json" }
+import CarModels from '../data/LiveCity/CarModels.json' with { type: "json" }
+import ColorlessCars from '../data/LiveCity/ColorlessCars.json' with { type: "json" }
+import CarColorsNum from '../data/LiveCity/CarColorsNum.json' with { type: "json" }
 
 /*class VehicleEntry {
     Name
